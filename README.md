@@ -4,6 +4,9 @@
 Interfaccia utente (HMI) custom permette il monitoraggio dei parametri del sistema Simplified Secure Water Treatment (SSWaT) in tempo reale ed in modalita' esclusivamente Read-Only. 
 L'applicazione e' composta da un frontend web leggero e reattivo e da un backend dedicato alla lettura dei dati dalle PLC.
 
+## Processo fisico
+![phy_proc_sswat](/images/simplified_SWAT_system.png)
+
 ## Diagramma dell'Architettura
 ```[ Browser Client ] <-- (API Fetch) --> [ Express.js API Server ] <-- (Modbus) --> [ PLC1, PLC2, PLC3 ]```
 
