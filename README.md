@@ -7,6 +7,9 @@ L'applicazione e' composta da un frontend web leggero e reattivo e da un backend
 ## Processo fisico
 ![phy_proc_sswat](/images/simplified_SWAT_system.png)
 
+## Immagine HMI
+![hmi_sswat](/images/hmi.png)
+
 ## Diagramma dell'Architettura
 ```[ Browser Client ] <-- (API Fetch) --> [ Express.js API Server ] <-- (Modbus) --> [ PLC1, PLC2, PLC3 ]```
 
