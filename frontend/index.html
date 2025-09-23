@@ -37,6 +37,11 @@
             height: 8px;
             background-color: #6b7280;
         }
+        .split-pipe {
+            height: 75px;
+            width: 8px;
+            background-color: #6b7280;
+        }
         .process-unit {
             border: 2px solid #4b5563;
             background-color: #374151;
@@ -77,7 +82,7 @@
                         </div>
                         <div class="flex-1 pipe"></div>
                         <div class="flex flex-col items-center w-20">
-                             <svg id="valve-301" class="w-10 h-10 mb-1 text-gray-400" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 12h7v10h6V12h7L12 2z"/></svg>
+                            <svg id="valve-301" class="w-10 h-10 mb-1 text-gray-400" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2L2 12h7v10h6V12h7L12 2z"/></svg>
                             <span class="font-semibold">MV-301</span>
                         </div>
                         <div class="flex-1 pipe"></div>
@@ -101,14 +106,18 @@
                             <span class="font-semibold text-base">T-203</span>
                         </div>
                         <div class="flex-1 pipe"></div>
+                        <div class="split-pipe"></div>
                         <div class="flex flex-col items-center w-20">
-                           <svg id="pump-102" class="w-10 h-10 mb-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                            <svg id="pump-102" class="w-10 h-10 mb-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path><circle cx="12" cy="12" r="3"></circle></svg>
                             <span class="font-semibold">P-102</span>
+                            <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                            <span class="font-semibold">CLEAN WATER</span>
                         </div>
-                        <div class="flex-1 pipe"></div>
-                        <div class="flex flex-col items-center w-24">
-                           <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                           <span class="font-semibold">CLEAN WATER</span>
+                        <div class="flex items-start self-stretch mt-2">
+                            <div class="pipe w-10 mt-2"></div>
+                        </div>
+                        <div class="flex items-start self-stretch mt-2">
+                            <div class="process-unit">Back To Filtration</div>
                         </div>
                     </div>
                 </div>
